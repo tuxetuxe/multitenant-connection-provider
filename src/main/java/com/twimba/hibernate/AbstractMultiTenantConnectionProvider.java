@@ -37,6 +37,13 @@ import com.twimba.hibernate.exceptions.UnknownTenantException;
  * Attention:
  *  You still need a org.hibernate.context.spi.CurrentTenantIdentifierResolver 
  *  configured so that hibernate can resolve the current tenant id !!
+ *  
+ *  Programmatically this is a sample configuration
+ *     HashMap<String, String> params = new HashMap<String, String>();
+ *     
+ *     params.put(Environment.MULTI_TENANT, MultiTenancyStrategy.DATABASE.name());
+ *     params.put(Environment.MULTI_TENANT_CONNECTION_PROVIDER, <a sub class of this>);
+ *     params.put(Environment.MULTI_TENANT_IDENTIFIER_RESOLVER, <an implementation of the CurrentTenantIdentifierResolver> );
  * 
  * @author Luis Santos
  */
