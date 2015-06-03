@@ -1,4 +1,6 @@
 # multitenant-connection-provider
+
+[![Join the chat at https://gitter.im/tuxetuxe/multitenant-connection-provider](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tuxetuxe/multitenant-connection-provider?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a very simple (and naive ? :) ) way to kickstart the usage of the Hibernate multi 
 tenancy feature.
 
