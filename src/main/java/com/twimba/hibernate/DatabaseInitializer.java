@@ -4,7 +4,7 @@ import java.sql.Connection;
 
 public interface DatabaseInitializer {
 
-	void intializeDatabase(Connection conn);
+    void intializeDatabase(Connection conn);
 
-	boolean databaseNeedsToBeInitialized(Connection conn);
+    boolean databaseNeedsToBeInitialized(Connection conn);
 }

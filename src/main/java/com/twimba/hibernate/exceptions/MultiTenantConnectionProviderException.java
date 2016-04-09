@@ -2,10 +2,10 @@ package com.twimba.hibernate.exceptions;
 
 public class MultiTenantConnectionProviderException extends RuntimeException {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	public MultiTenantConnectionProviderException(String message, Throwable e) {
-		super(message, e);
-	}
+    public MultiTenantConnectionProviderException(String message, Throwable e) {
+        super(message, e);
+    }
 
 }
