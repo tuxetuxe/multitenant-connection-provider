@@ -17,10 +17,7 @@ tenancy feature.
 * Add tenants configuration.
 * Done! :)
 
-## PitFalls
-This code assumes you are using hibernate 4.3.0_Final. It is possible to use with previous 
-versions (tested from 4.2.7_Final) however be aware that before 4.3.0 there is a bug with 
-the ID generators not taking into account the tenant!
+There is a sample implementation in [here](https://github.com/tuxetuxe/multitenant-connection-provider-sample)
 
 #### References: 
 * https://hibernate.atlassian.net/browse/HHH-7582
